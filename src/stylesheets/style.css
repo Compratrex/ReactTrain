@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.post {
+    padding: 15px;
+    height: 200px;
+    background-color: #242424;
+    margin-top: 15px;
+}
+.div{
+    padding-top: 10px;
+    color: #f6f6f6aa;
+}
+.post__buttons {
+    float: right;
+}
+.post__buttons button{
+    color: #242424;
+    padding: 10px;
+    font-size: 18px;
+}
